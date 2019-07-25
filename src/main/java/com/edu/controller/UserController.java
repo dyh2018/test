@@ -27,7 +27,7 @@ public class UserController {
             IMoocJSONResult.ok(user);
         }
         else{
-            return  IMoocJSONResult.errorMsg("登录失败");
+            return  IMoocJSONResult.errorMsg("登录失败,嘤嘤嘤");
         }
         return null;
     }
